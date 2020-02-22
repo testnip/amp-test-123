@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7b450bb5-b9dc-4d6d-9f04-90c247a845b1" name="Default Changelist" comment="test">
+    <list default="true" id="7b450bb5-b9dc-4d6d-9f04-90c247a845b1" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
@@ -896,6 +896,14 @@
       <option name="presentableId" value="Default" />
       <updated>1581018490711</updated>
     </task>
+    <task id="LOCAL-00001" summary="test">
+      <created>1582337923382</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1582337923382</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -911,18 +919,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="176" width="1001" height="688" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582249580329" />
-    <state x="614" y="115" key="CommitChangelistDialog2" timestamp="1582337798395">
+    <state x="614" y="115" key="CommitChangelistDialog2" timestamp="1582337919347">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="614" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1582337798395" />
+    <state x="614" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1582337919347" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1582335905538">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1582335905538" />
-    <state x="788" y="414" key="Github.ShareDialog" timestamp="1582336706748">
+    <state x="788" y="414" key="Github.ShareDialog" timestamp="1582338649696">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="788" y="414" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582336706748" />
+    <state x="788" y="414" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582338649696" />
     <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1582331019934">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -947,14 +955,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="163" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1582336662813" />
-    <state x="552" y="254" key="Vcs.Push.Dialog.v2" timestamp="1582337339936">
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2" timestamp="1582338607505">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1582337339936" />
-    <state x="655" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1582334935385">
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1582338607505" />
+    <state x="655" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1582338538324">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="655" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582334935385" />
+    <state x="655" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582338538324" />
     <state x="629" y="118" width="661" height="804" key="find.popup" timestamp="1582096864515">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
