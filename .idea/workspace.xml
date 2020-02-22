@@ -1,0 +1,967 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7b450bb5-b9dc-4d6d-9f04-90c247a845b1" name="Default Changelist" comment="test">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__batik_batik_awt_util_1_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__batik_batik_bridge_1_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__batik_batik_css_1_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__batik_batik_dom_1_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__batik_batik_ext_1_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__batik_batik_gui_util_1_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__batik_batik_gvt_1_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__batik_batik_parser_1_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__batik_batik_script_1_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__batik_batik_svg_dom_1_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__batik_batik_transcoder_1_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__batik_batik_util_1_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__batik_batik_xml_1_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__bouncycastle_bcmail_jdk14_138.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__bouncycastle_bcprov_jdk14_138.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__classworlds_classworlds_1_1_alpha_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_48.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_cedarsoftware_json_io_2_2_31.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_codeborne_selenide_4_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_mkolisnyk_cucumber_reports_1_0_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_shiver_me_timbers_smt_building_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_shiver_me_timbers_smt_random_1_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_shiver_me_timbers_smt_random_dates_1_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_shiver_me_timbers_smt_random_numbers_1_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_shiver_me_timbers_smt_random_strings_1_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_shiver_me_timbers_smt_random_things_1_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_26_0_jre.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_itextpdf_itextpdf_5_5_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jcraft_jzlib_1_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_lowagie_itext_2_1_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_saucelabs_saucerest_1_0_39.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_1_13_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_digester_commons_digester_1_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_validator_commons_validator_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__dnsjava_dnsjava_2_1_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_core_1_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_html_0_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_java_1_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_junit_1_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_jvm_deps_1_0_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_spring_1_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_testng_1_2_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_gherkin_2_12_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_bonigarcia_webdrivermanager_2_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_sukgu_automation_0_0_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_1_27_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_7_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_7_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_lightbody_bmp_browsermob_core_2_1_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_lightbody_bmp_littleproxy_1_1_0_beta_bmp_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_lightbody_bmp_mitm_2_1_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_compress_1_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_exec_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_doxia_doxia_core_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_doxia_doxia_decoration_model_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_doxia_doxia_module_apt_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_doxia_doxia_module_fml_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_doxia_doxia_module_xdoc_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_doxia_doxia_module_xhtml_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_doxia_doxia_sink_api_1_0_alpha_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_doxia_doxia_site_renderer_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_artifact_2_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_artifact_manager_2_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_model_2_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_plugin_api_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_profile_2_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_project_2_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_repository_metadata_2_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_settings_2_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_reporting_maven_reporting_api_2_0_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_reporting_maven_reporting_impl_2_0_4_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_shared_maven_doxia_tools_1_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_wagon_wagon_provider_api_1_0_alpha_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_32.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_32.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_32.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_velocity_velocity_1_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_8_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_beanshell_bsh_2_0b4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_58.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_58.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bctsp_jdk14_1_38.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_2_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_container_default_1_0_alpha_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_i18n_1_0_beta_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_utils_3_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_velocity_1_1_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_11_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_20_0_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20171018.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jsoup_jsoup_1_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_15_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_11_0_0_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_linux_11_0_0_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_mac_11_0_0_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_win_11_0_0_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_rauschig_jarchivelib_0_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_3_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_3_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_edge_driver_3_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_3_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_3_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_3_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_opera_driver_3_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_3_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_3_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_3_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_retry_spring_retry_1_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_6_9_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xhtmlrenderer_flying_saucer_core_9_0_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xhtmlrenderer_flying_saucer_pdf_9_0_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__oro_oro_2_0_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__rhino_js_1_5R4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ru_yandex_qatools_ashot_ashot_1_5_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xerces_xercesImpl_2_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xmlParserAPIs_2_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_4_01.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1582248939262.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1582248939295.1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1582248946851.2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1582248946871.3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1582248954428.4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1582248954446.5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1582249616279.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1582249616279.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1582249617766.1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1582249617766.1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1582249626758.2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1582249626758.2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1582249628097.3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1582249628097.3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1582249636987.4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1582249636987.4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1582249638310.5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1582249638310.5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1582249649334.6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1582249649334.6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1582249652038.7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1582249652038.7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1582249661286.8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1582249661286.8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1582249662514.9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1582249662514.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1582249671275.10.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1582249671275.10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1582249672546.11.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1582249672546.11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1582249681406.12.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1582249681406.12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1582249682650.13.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1582249682650.13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1582249691401.14.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1582249691401.14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1582249692606.15.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1582249692606.15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1582249701307.16.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1582249701307.16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1582249702804.17.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1582249702804.17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1582249711874.18.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1582249711874.18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1582249713136.19.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1582249713136.19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1582327785203.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1582327785203.0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1582327786673.1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1582327786673.1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1582327797805.2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1582327797805.2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1582327799171.3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1582327799171.3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1582327810241.4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1582327810241.4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1582327811588.5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1582327811588.5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1582327822613.6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1582327822613.6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1582327823978.7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1582327823978.7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1582327834984.8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1582327834984.8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1582327836353.9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1582327836353.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1582327847341.10.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1582327847341.10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1582327848727.11.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1582327848727.11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1582327859718.12.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1582327859718.12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1582327861459.13.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1582327861459.13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1582327872594.14.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1582327872594.14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1582327874376.15.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/1582327874376.15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nzpost-web-replatform-tests.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fasterxml/jackson/databind/deser/RandomGeneratorDeserializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fasterxml/jackson/databind/deser/RandomGeneratorModule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cucumber/runtime/java/spring/CucumberGlueScopeConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/CucumberRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/annotations/AfterAll.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/annotations/BeforeAll.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/annotations/Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/api/ApiProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/api/ParcelAddressApiClientV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/api/ParcelCollectionApiClientV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/api/PostshopLocationsApiClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/api/PostshopLocationsApiClientV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/api/PostshopSuggestionsApiClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/api/responses/GetParcelAddressResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/api/responses/GetParcelCollectionResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/api/responses/GetPostshopLocationsResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/api/responses/GetPostshopSuggestionsResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/aspectj/GlobalHooksAspectJ.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/browser/Browser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/configuration/AutomationConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/configuration/LoggingRequestInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/domain/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/domain/AddressDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/domain/AddressResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/domain/AddressResultMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/domain/AddressResultType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/domain/AddressSuggestion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/domain/ContactDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/domain/Geolocation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/domain/GeolocationDisabled.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/domain/HoursEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/domain/MapExtent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/domain/MapHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/domain/OpeningHour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/domain/ParcelAddress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/domain/ParcelCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/domain/ParcelCollectionLocation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/domain/PaymentDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/domain/PostShopSuggestions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/domain/PostshopLocation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/domain/PostshopLocationDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/domain/Query.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/domain/QueryType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/domain/RedeliveryDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/domain/StoreLocationResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/domain/StoreLocationSuggestion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/domain/SuccessDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/domain/Suggestion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/domain/TrackingNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/exception/ElementNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/external/CloudProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/external/ExternalClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/external/ExternalDriverManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/external/saucelabs/SaucelabsClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/external/saucelabs/SaucelabsDriverManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/external/saucelabs/SaucelabsProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/io/FilePathBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/io/FileReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/io/ImageReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/io/JsonReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/io/JsonWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/io/ModelFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/io/random/DefaultRandomValueGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/io/random/RandomKeyWord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/io/random/RandomValueGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/io/random/RandomValueGeneratorFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/page/AddressSearchPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/page/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/page/ParceForYouContactDetailsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/page/ParcelForYouAuthorisedLeavePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/page/ParcelForYouCollectionPointPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/page/ParcelForYouDateTimePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/page/ParcelForYouNewlDeliveryAddressPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/page/ParcelForYouOriginalDeliveryAddressPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/page/ParcelForYouPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/page/ParcelForYouPaymentPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/page/ParcelForYouRedeliveryOptionsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/page/ParcelForYouSuccessPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/page/ParcelForYouSummaryPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/page/StoreLocatorPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/page/SubmittedSuggestAddressPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/page/SuggestAddressPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/page/UserRegistrationPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/report/CucumberDetailsReportGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/report/ReportGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/screenshot/ScreenshotTaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/screenshot/ashot/ScreenshotTakerAshot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/steps/AddressSearchMapSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/steps/AddressSearchSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/steps/HomePageSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/steps/Hooks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/steps/NavigateToSuggestAnAddressSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/steps/ParcelAddressApiSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/steps/ParcelCollectionApiSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/steps/ParcelForYouAuthorisedLeaveSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/steps/ParcelForYouCollectionPointSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/steps/ParcelForYouContactDetailsSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/steps/ParcelForYouDateTimeSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/steps/ParcelForYouNewDeliveryAddressSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/steps/ParcelForYouOriginalDeliveryAddressSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/steps/ParcelForYouPaymentSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/steps/ParcelForYouRedeliverDifferentAddressSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/steps/ParcelForYouRedeliveryOptionsSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/steps/ParcelForYouSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/steps/ParcelForYouSummarySteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/steps/PostshopLocattionsApiSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/steps/StoreLocationSearchMapSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/steps/StoreLocationSearchSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/steps/SubmittedSuggestAddressSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/steps/SuggestAnAddressSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/steps/UserRegistrationSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application-cloud.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application-drupaluat.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application-ie.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application-safari.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application-sit.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application-uat.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data.mapextent/2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data.mapextent/query.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/addressresultmap/1010.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/addressresultmap/16 cornwall place- karaka- papakura 2113.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/addressresultmap/2013.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/addressresultmap/2104.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/addressresultmessage/invalid-postcode-message.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/addressresultmessage/not-postal-address-message.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/addressresultmessage/other-way-to-post-message.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/addressresultmessage/valid-city-message.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/addressresultmessage/valid-postcode-message.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/addresssuggestion/invalid-city-address.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/addresssuggestion/invalid-email-address.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/addresssuggestion/invalid-missing-address.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/addresssuggestion/invalid-name-address.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/addresssuggestion/invalid-street-address.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/addresssuggestion/invalid-suburb-address.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/addresssuggestion/valid-myaddress.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/addresssuggestion/valid-not-myaddress.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/cloud/addressresultmap/1010.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/cloud/addressresultmap/16 cornwall place- karaka- papakura 2113.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/cloud/addressresultmap/2013.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/cloud/addressresultmap/2014.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/cloud/addressresultmap/2104.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/cloud/locationresultmap/auckland.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/cloud/locationresultmap/pt e.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/contactdetails/invalid-contact-details.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/contactdetails/invalid-email.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/contactdetails/invalid-first-name.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/contactdetails/invalid-last-name.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/contactdetails/invalid-phone-number.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/contactdetails/valid-company.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/contactdetails/valid-no-company.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/getparceladdressresponse/14 iwi.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/getparcelcollectionresponse/5045629.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/getpostshoplocationsresponse/-dunedin1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/getpostshoplocationsresponse/@auckland.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/getpostshoplocationsresponse/auck.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/getpostshoplocationsresponse/auckland.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/getpostshoplocationsresponse/auckland1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/getpostshoplocationsresponse/christchurch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/getpostshoplocationsresponse/highbrook-easttamaki.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/getpostshoplocationsresponse/w_ellington.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/getpostshoplocationsresponse/wellington.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/getpostshopsuggestionsresponse/auck.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/locationresultmap/auckland.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/locationresultmap/pt e.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/paymentdetails/card-no-name.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/paymentdetails/invalid-billing-address.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/paymentdetails/invalid-billing-city.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/paymentdetails/invalid-billing-country.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/paymentdetails/invalid-billing-first-name.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/paymentdetails/invalid-billing-last-name.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/paymentdetails/invalid-billing-postcode.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/paymentdetails/invalid-billing-suburb.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/paymentdetails/invalid-card-expiry.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/paymentdetails/invalid-card-number.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/paymentdetails/invalid-card-security.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/paymentdetails/invalid-contact-details.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/paymentdetails/only-credit-card-details.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/paymentdetails/payment-missing-details.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/paymentdetails/valid-card-declined.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/paymentdetails/valid-card-timeout.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/paymentdetails/valid-details.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/paymentdetails/valid-no-company.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/postshoplocationdetails/2013.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/query/-dunedin1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/query/@auckland.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/query/auckland.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/query/auckland1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/query/highbrook-easttamaki.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/query/w_ellington.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/query/wellington.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/storelocationresult/12.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/storelocationresult/auckland.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/storelocationresult/christchurch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/storelocationresult/dunedin.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/storelocationresult/greytown postshop.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/storelocationresult/point england- auckland.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/storelocationresult/pt e.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/storelocationresult/wa.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/storelocationresult/waitangirua laundromat.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/storelocationresult/wellington.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/storelocationsuggestion/100 queen st.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/storelocationsuggestion/1010.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/storelocationsuggestion/onehunga.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/storelocationsuggestion/otorohanga.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/storelocationsuggestion/wellington.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/features/address-search-errors.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/features/address-search-map.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/features/apis/parcel-address-v1.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/features/apis/parcel-collection-v1.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/features/apis/postshop-locations-v1.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/features/apis/postshop-locations-v2.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/features/homepage.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/features/navigate-to-suggest-address.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/features/parcel-for-you-authorised-leave.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/features/parcel-for-you-collection-point.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/features/parcel-for-you-contact-details.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/features/parcel-for-you-new-delivery-address.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/features/parcel-for-you-original-delivery-address.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/features/parcel-for-you-redeliver-collection-point.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/features/parcel-for-you-redeliver-date-time.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/features/parcel-for-you-redeliver-different-address.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/features/parcel-for-you-redeliver-same-address-payment.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/features/parcel-for-you-redeliver-same-address-summary.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/features/parcel-for-you-redelivery-options.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/features/parcel-for-you-summary-without-atl.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/features/parcel-for-you.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/features/store-locator-clear-search.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/features/store-locator-map-interaction-result-list.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/features/store-locator-quick-search.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/features/store-locator-search-map.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/features/store-locator-search.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/features/suggest-address-submitted.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/features/suggest-address.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/features/user-registration.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/jquery/jquerify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/nz/co/nzpost/automation/api/PostshopLocationsApiClientTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/nz/co/nzpost/automation/domain/SuggestionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/nz/co/nzpost/automation/io/FilePathBuilderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/drivers/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/drivers/geckodriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application-cloud.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application-drupaluat.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application-ie.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application-safari.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application-sit.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application-uat.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fasterxml/jackson/databind/deser/RandomGeneratorDeserializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fasterxml/jackson/databind/deser/RandomGeneratorModule$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fasterxml/jackson/databind/deser/RandomGeneratorModule.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cucumber/runtime/java/spring/CucumberGlueScopeConfiguration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/data.mapextent/2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/data.mapextent/query.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/data/addressresultmap/1010.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/data/addressresultmap/16 cornwall place- karaka- papakura 2113.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/data/addressresultmap/2013.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/data/addressresultmap/2104.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/data/addressresultmessage/invalid-postcode-message.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/data/addressresultmessage/not-postal-address-message.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/data/addressresultmessage/other-way-to-post-message.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/data/addressresultmessage/valid-city-message.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/data/addressresultmessage/valid-postcode-message.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/data/addresssuggestion/invalid-city-address.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/data/addresssuggestion/invalid-email-address.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/data/addresssuggestion/invalid-missing-address.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/data/addresssuggestion/invalid-name-address.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/data/addresssuggestion/invalid-street-address.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/data/addresssuggestion/invalid-suburb-address.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/data/addresssuggestion/valid-myaddress.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/data/addresssuggestion/valid-not-myaddress.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/data/cloud/addressresultmap/1010.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/data/cloud/addressresultmap/16 cornwall place- karaka- papakura 2113.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/data/cloud/addressresultmap/2013.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/data/cloud/addressresultmap/2014.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/data/cloud/addressresultmap/2104.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/data/cloud/locationresultmap/auckland.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/data/cloud/locationresultmap/pt e.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/data/contactdetails/invalid-contact-details.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/data/contactdetails/invalid-email.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/data/contactdetails/invalid-first-name.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/data/contactdetails/invalid-last-name.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/data/contactdetails/invalid-phone-number.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/data/contactdetails/valid-company.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/data/contactdetails/valid-no-company.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/data/getparceladdressresponse/14 iwi.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/data/getparcelcollectionresponse/5045629.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/data/getpostshoplocationsresponse/-dunedin1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/data/getpostshoplocationsresponse/@auckland.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/data/getpostshoplocationsresponse/auck.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/data/getpostshoplocationsresponse/auckland.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/data/getpostshoplocationsresponse/auckland1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/data/getpostshoplocationsresponse/christchurch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/data/getpostshoplocationsresponse/highbrook-easttamaki.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/data/getpostshoplocationsresponse/w_ellington.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/data/getpostshoplocationsresponse/wellington.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/data/getpostshopsuggestionsresponse/auck.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/data/locationresultmap/auckland.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/data/locationresultmap/pt e.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/data/paymentdetails/card-no-name.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/data/paymentdetails/invalid-billing-address.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/data/paymentdetails/invalid-billing-city.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/data/paymentdetails/invalid-billing-country.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/data/paymentdetails/invalid-billing-first-name.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/data/paymentdetails/invalid-billing-last-name.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/data/paymentdetails/invalid-billing-postcode.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/data/paymentdetails/invalid-billing-suburb.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/data/paymentdetails/invalid-card-expiry.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/data/paymentdetails/invalid-card-number.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/data/paymentdetails/invalid-card-security.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/data/paymentdetails/invalid-contact-details.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/data/paymentdetails/only-credit-card-details.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/data/paymentdetails/payment-missing-details.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/data/paymentdetails/valid-card-declined.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/data/paymentdetails/valid-card-timeout.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/data/paymentdetails/valid-details.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/data/paymentdetails/valid-no-company.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/data/postshoplocationdetails/2013.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/data/query/-dunedin1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/data/query/@auckland.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/data/query/auckland.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/data/query/auckland1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/data/query/highbrook-easttamaki.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/data/query/w_ellington.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/data/query/wellington.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/data/storelocationresult/12.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/data/storelocationresult/auckland.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/data/storelocationresult/christchurch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/data/storelocationresult/dunedin.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/data/storelocationresult/greytown postshop.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/data/storelocationresult/point england- auckland.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/data/storelocationresult/pt e.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/data/storelocationresult/wa.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/data/storelocationresult/waitangirua laundromat.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/data/storelocationresult/wellington.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/data/storelocationsuggestion/100 queen st.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/data/storelocationsuggestion/1010.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/data/storelocationsuggestion/onehunga.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/data/storelocationsuggestion/otorohanga.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/data/storelocationsuggestion/wellington.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/features/address-search-errors.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/features/address-search-map.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/features/apis/parcel-address-v1.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/features/apis/parcel-collection-v1.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/features/apis/postshop-locations-v1.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/features/apis/postshop-locations-v2.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/features/homepage.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/features/navigate-to-suggest-address.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/features/parcel-for-you-authorised-leave.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/features/parcel-for-you-collection-point.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/features/parcel-for-you-contact-details.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/features/parcel-for-you-new-delivery-address.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/features/parcel-for-you-original-delivery-address.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/features/parcel-for-you-redeliver-collection-point.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/features/parcel-for-you-redeliver-date-time.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/features/parcel-for-you-redeliver-different-address.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/features/parcel-for-you-redeliver-same-address-payment.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/features/parcel-for-you-redeliver-same-address-summary.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/features/parcel-for-you-redelivery-options.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/features/parcel-for-you-summary-without-atl.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/features/parcel-for-you.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/features/store-locator-clear-search.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/features/store-locator-map-interaction-result-list.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/features/store-locator-quick-search.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/features/store-locator-search-map.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/features/store-locator-search.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/features/suggest-address-submitted.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/features/suggest-address.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/features/user-registration.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/jquery/jquerify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/CucumberRunner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/annotations/AfterAll.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/annotations/BeforeAll.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/annotations/Page.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/api/ApiProperties.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/api/ParcelAddressApiClientV1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/api/ParcelCollectionApiClientV1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/api/PostshopLocationsApiClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/api/PostshopLocationsApiClientV2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/api/PostshopSuggestionsApiClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/api/responses/GetParcelAddressResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/api/responses/GetPostshopLocationsResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/api/responses/GetPostshopSuggestionsResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/aspectj/GlobalHooksAspectJ$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/aspectj/GlobalHooksAspectJ.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/browser/Browser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/configuration/AutomationConfiguration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/configuration/LoggingRequestInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/domain/Address.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/domain/AddressDetails.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/domain/AddressResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/domain/AddressResultMessage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/domain/AddressResultType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/domain/AddressSuggestion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/domain/ContactDetails.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/domain/Geolocation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/domain/GeolocationDisabled.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/domain/GetParcelCollectionResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/domain/HoursEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/domain/MapExtent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/domain/MapHolder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/domain/OpeningHour.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/domain/ParcelAddress$ParcelAddressBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/domain/ParcelAddress.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/domain/ParcelCheck$ParcelCheckBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/domain/ParcelCheck.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/domain/ParcelCollectionLocation$ParcelCollectionLocationBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/domain/ParcelCollectionLocation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/domain/PaymentDetails.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/domain/PostShopSuggestions.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/domain/PostshopLocation$PostshopLocationBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/domain/PostshopLocation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/domain/PostshopLocationDetails.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/domain/Query.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/domain/QueryType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/domain/RedeliveryDetails.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/domain/StoreLocationResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/domain/StoreLocationSuggestion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/domain/SuccessDetails.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/domain/Suggestion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/domain/TrackingNumber.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/exception/ElementNotFoundException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/external/CloudProperties.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/external/ExternalClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/external/ExternalDriverManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/external/saucelabs/SaucelabsClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/external/saucelabs/SaucelabsDriverManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/external/saucelabs/SaucelabsProperties.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/io/FilePathBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/io/FileReader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/io/ImageReader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/io/JsonReader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/io/JsonWriter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/io/ModelFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/io/random/DefaultRandomValueGenerator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/io/random/RandomKeyWord.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/io/random/RandomValueGenerator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/io/random/RandomValueGeneratorFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/page/AddressSearchPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/page/HomePage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/page/ParceForYouContactDetailsPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/page/ParcelForYouAuthorisedLeavePage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/page/ParcelForYouCollectionPointPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/page/ParcelForYouDateTimePage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/page/ParcelForYouNewlDeliveryAddressPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/page/ParcelForYouOriginalDeliveryAddressPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/page/ParcelForYouPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/page/ParcelForYouPaymentPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/page/ParcelForYouRedeliveryOptionsPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/page/ParcelForYouSuccessPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/page/ParcelForYouSummaryPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/page/StoreLocatorPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/page/SubmittedSuggestAddressPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/page/SuggestAddressPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/page/UserRegistrationPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/report/CucumberDetailsReportGenerator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/report/ReportGenerator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/screenshot/ScreenshotTaker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/screenshot/ashot/ScreenshotTakerAshot.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/steps/AddressSearchMapSteps.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/steps/AddressSearchSteps.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/steps/HomePageSteps.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/steps/Hooks.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/steps/NavigateToSuggestAnAddressSteps.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/steps/ParcelAddressApiSteps.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/steps/ParcelCollectionApiSteps.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/steps/ParcelForYouAuthorisedLeaveSteps.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/steps/ParcelForYouCollectionPointSteps.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/steps/ParcelForYouContactDetailsSteps.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/steps/ParcelForYouDateTimeSteps.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/steps/ParcelForYouNewDeliveryAddressSteps.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/steps/ParcelForYouOriginalDeliveryAddressSteps.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/steps/ParcelForYouPaymentSteps.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/steps/ParcelForYouRedeliverDifferentAddressSteps.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/steps/ParcelForYouRedeliveryOptionsSteps.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/steps/ParcelForYouSteps.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/steps/ParcelForYouSummarySteps.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/steps/PostshopLocattionsApiSteps.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/steps/StoreLocationSearchMapSteps.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/steps/StoreLocationSearchSteps.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/steps/SubmittedSuggestAddressSteps.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/steps/SuggestAnAddressSteps.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/steps/UserRegistrationSteps.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/drivers/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/drivers/geckodriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/nz/co/nzpost/automation/api/PostshopLocationsApiClientTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/nz/co/nzpost/automation/domain/SuggestionTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/nz/co/nzpost/automation/io/FilePathBuilderTest.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1XRouXQ3Tdtjle9tEvcHnLC2uTW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="http.proxy" />
+  </component>
+  <component name="RunManager" selected="Cucumber java.Scenario: User is on registration page">
+    <configuration name="Scenario: No postcode or address using enter (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/user-registration.feature" />
+      <option name="GLUE" value="cucumber.api.spring nz.co.nzpost.automation.steps" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="nzpost-web-replatform-tests" />
+      <option name="NAME_FILTER" value="^No postcode or address using enter$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^No postcode or address using enter$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: No postcode or address using enter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: No postcode or address using enter" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/address-search.feature" />
+      <option name="GLUE" value="cucumber.api.spring nz.co.nzpost.automation.steps" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="nzpost-web-replatform-tests" />
+      <option name="NAME_FILTER" value="^No postcode or address using enter$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^No postcode or address using enter$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: No postcode or address using enter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: User is on registration page" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/user-registration.feature" />
+      <option name="GLUE" value="nz.co.nzpost.automation.steps" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="nzpost-web-replatform-tests" />
+      <option name="NAME_FILTER" value="^User is on registration page$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^User is on registration page$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: User is on registration page" />
+      <option name="VM_PARAMETERS" value="-Dselenide.browser=chrome -Dwebdriver.chrome.driver=$PROJECT_DIR$/src/test/resources/drivers/chromedriver.exe -Dspring.profiles.active=uat" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Cucumber java.Scenario: No postcode or address using enter" />
+      <item itemvalue="Cucumber java.Scenario: User is on registration page" />
+      <item itemvalue="Cucumber java.Scenario: No postcode or address using enter (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cucumber java.Scenario: User is on registration page" />
+        <item itemvalue="Cucumber java.Scenario: No postcode or address using enter (1)" />
+        <item itemvalue="Cucumber java.Scenario: No postcode or address using enter" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7b450bb5-b9dc-4d6d-9f04-90c247a845b1" name="Default Changelist" comment="" />
+      <created>1581018490711</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581018490711</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="179" key="#Notifications" timestamp="1582334757330">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="179" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1582334757330" />
+    <state x="414" y="176" width="1001" height="688" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582249580329">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="176" width="1001" height="688" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582249580329" />
+    <state x="614" y="115" key="CommitChangelistDialog2" timestamp="1582337798395">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="614" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1582337798395" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1582335905538">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1582335905538" />
+    <state x="788" y="414" key="Github.ShareDialog" timestamp="1582336706748">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="788" y="414" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582336706748" />
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1582331019934">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582331019934" />
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom/1680.-26.1920.1040/-1680.0.1680.1010/0.0.1680.1010@1680.-26.1920.1040" timestamp="1582251745913" />
+    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1582331019934">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582331019934" />
+    <state width="1877" height="281" key="GridCell.Tab.0.center/1680.-26.1920.1040/-1680.0.1680.1010/0.0.1680.1010@1680.-26.1920.1040" timestamp="1582251745912" />
+    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1582331019934">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582331019934" />
+    <state width="1877" height="281" key="GridCell.Tab.0.left/1680.-26.1920.1040/-1680.0.1680.1010/0.0.1680.1010@1680.-26.1920.1040" timestamp="1582251745912" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1582331019934">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582331019934" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right/1680.-26.1920.1040/-1680.0.1680.1010/0.0.1680.1010@1680.-26.1920.1040" timestamp="1582251745913" />
+    <state x="461" y="163" key="SettingsEditor" timestamp="1582336662813">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="163" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1582336662813" />
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2" timestamp="1582337339936">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1582337339936" />
+    <state x="655" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1582334935385">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="655" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582334935385" />
+    <state x="629" y="118" width="661" height="804" key="find.popup" timestamp="1582096864515">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="629" y="118" width="661" height="804" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1582096864515" />
+    <state x="712" y="442" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog" timestamp="1582186564273">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="712" y="442" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582186564273" />
+  </component>
+</project>
