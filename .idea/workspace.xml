@@ -2,7 +2,243 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b450bb5-b9dc-4d6d-9f04-90c247a845b1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nzpost-web-replatform-tests.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fasterxml/jackson/databind/deser/RandomGeneratorDeserializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fasterxml/jackson/databind/deser/RandomGeneratorDeserializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/CucumberRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/CucumberRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/annotations/AfterAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/annotations/AfterAll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/annotations/BeforeAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/annotations/BeforeAll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/annotations/Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/annotations/Page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/api/ApiProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/api/ApiProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/api/ParcelAddressApiClientV1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/api/ParcelAddressApiClientV1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/api/ParcelCollectionApiClientV1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/api/ParcelCollectionApiClientV1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/api/PostshopLocationsApiClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/api/PostshopLocationsApiClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/api/PostshopLocationsApiClientV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/api/PostshopLocationsApiClientV2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/api/PostshopSuggestionsApiClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/api/PostshopSuggestionsApiClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/api/responses/GetParcelAddressResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/api/responses/GetParcelAddressResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/api/responses/GetParcelCollectionResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/api/responses/GetParcelCollectionResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/api/responses/GetPostshopLocationsResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/api/responses/GetPostshopLocationsResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/api/responses/GetPostshopSuggestionsResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/api/responses/GetPostshopSuggestionsResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/aspectj/GlobalHooksAspectJ.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/aspectj/GlobalHooksAspectJ.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/browser/Browser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/browser/Browser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/configuration/AutomationConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/configuration/AutomationConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/configuration/LoggingRequestInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/configuration/LoggingRequestInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/domain/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/domain/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/domain/AddressDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/domain/AddressDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/domain/AddressResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/domain/AddressResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/domain/AddressResultMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/domain/AddressResultMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/domain/AddressResultType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/domain/AddressResultType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/domain/AddressSuggestion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/domain/AddressSuggestion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/domain/ContactDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/domain/ContactDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/domain/Geolocation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/domain/Geolocation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/domain/GeolocationDisabled.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/domain/GeolocationDisabled.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/domain/HoursEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/domain/HoursEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/domain/MapExtent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/domain/MapExtent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/domain/MapHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/domain/MapHolder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/domain/OpeningHour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/domain/OpeningHour.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/domain/ParcelAddress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/domain/ParcelAddress.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/domain/ParcelCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/domain/ParcelCheck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/domain/ParcelCollectionLocation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/domain/ParcelCollectionLocation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/domain/PaymentDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/domain/PaymentDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/domain/PostShopSuggestions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/domain/PostShopSuggestions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/domain/PostshopLocation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/domain/PostshopLocation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/domain/PostshopLocationDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/domain/PostshopLocationDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/domain/Query.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/domain/Query.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/domain/QueryType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/domain/QueryType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/domain/RedeliveryDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/domain/RedeliveryDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/domain/StoreLocationResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/domain/StoreLocationResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/domain/StoreLocationSuggestion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/domain/StoreLocationSuggestion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/domain/SuccessDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/domain/SuccessDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/domain/Suggestion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/domain/Suggestion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/domain/TrackingNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/domain/TrackingNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/exception/ElementNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/exception/ElementNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/external/CloudProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/external/CloudProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/external/ExternalClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/external/ExternalClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/external/ExternalDriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/external/ExternalDriverManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/external/saucelabs/SaucelabsClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/external/saucelabs/SaucelabsClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/external/saucelabs/SaucelabsDriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/external/saucelabs/SaucelabsDriverManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/external/saucelabs/SaucelabsProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/external/saucelabs/SaucelabsProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/io/FilePathBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/io/FilePathBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/io/FileReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/io/FileReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/io/ImageReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/io/ImageReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/io/JsonReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/io/JsonReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/io/JsonWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/io/JsonWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/io/ModelFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/io/ModelFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/io/random/DefaultRandomValueGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/io/random/DefaultRandomValueGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/io/random/RandomKeyWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/io/random/RandomKeyWord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/io/random/RandomValueGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/io/random/RandomValueGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/io/random/RandomValueGeneratorFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/io/random/RandomValueGeneratorFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/page/AddressSearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/page/AddressSearchPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/page/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/page/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/page/ParceForYouContactDetailsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/page/ParceForYouContactDetailsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/page/ParcelForYouAuthorisedLeavePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/page/ParcelForYouAuthorisedLeavePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/page/ParcelForYouCollectionPointPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/page/ParcelForYouCollectionPointPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/page/ParcelForYouDateTimePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/page/ParcelForYouDateTimePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/page/ParcelForYouNewlDeliveryAddressPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/page/ParcelForYouNewlDeliveryAddressPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/page/ParcelForYouOriginalDeliveryAddressPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/page/ParcelForYouOriginalDeliveryAddressPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/page/ParcelForYouPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/page/ParcelForYouPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/page/ParcelForYouPaymentPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/page/ParcelForYouPaymentPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/page/ParcelForYouRedeliveryOptionsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/page/ParcelForYouRedeliveryOptionsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/page/ParcelForYouSuccessPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/page/ParcelForYouSuccessPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/page/ParcelForYouSummaryPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/page/ParcelForYouSummaryPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/page/StoreLocatorPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/page/StoreLocatorPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/page/SubmittedSuggestAddressPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/page/SubmittedSuggestAddressPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/page/SuggestAddressPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/page/SuggestAddressPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/page/UserRegistrationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/page/UserRegistrationPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/report/CucumberDetailsReportGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/report/CucumberDetailsReportGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/report/ReportGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/report/ReportGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/screenshot/ScreenshotTaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/screenshot/ScreenshotTaker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/screenshot/ashot/ScreenshotTakerAshot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/screenshot/ashot/ScreenshotTakerAshot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/steps/AddressSearchMapSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/steps/AddressSearchMapSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/steps/AddressSearchSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/steps/AddressSearchSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/steps/HomePageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/steps/HomePageSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/steps/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/steps/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/steps/NavigateToSuggestAnAddressSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/steps/NavigateToSuggestAnAddressSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/steps/ParcelAddressApiSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/steps/ParcelAddressApiSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/steps/ParcelCollectionApiSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/steps/ParcelCollectionApiSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/steps/ParcelForYouAuthorisedLeaveSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/steps/ParcelForYouAuthorisedLeaveSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/steps/ParcelForYouCollectionPointSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/steps/ParcelForYouCollectionPointSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/steps/ParcelForYouContactDetailsSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/steps/ParcelForYouContactDetailsSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/steps/ParcelForYouDateTimeSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/steps/ParcelForYouDateTimeSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/steps/ParcelForYouNewDeliveryAddressSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/steps/ParcelForYouNewDeliveryAddressSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/steps/ParcelForYouOriginalDeliveryAddressSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/steps/ParcelForYouOriginalDeliveryAddressSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/steps/ParcelForYouPaymentSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/steps/ParcelForYouPaymentSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/steps/ParcelForYouRedeliverDifferentAddressSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/steps/ParcelForYouRedeliverDifferentAddressSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/steps/ParcelForYouRedeliveryOptionsSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/steps/ParcelForYouRedeliveryOptionsSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/steps/ParcelForYouSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/steps/ParcelForYouSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/steps/ParcelForYouSummarySteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/steps/ParcelForYouSummarySteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/steps/PostshopLocattionsApiSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/steps/PostshopLocattionsApiSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/steps/StoreLocationSearchMapSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/steps/StoreLocationSearchMapSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/steps/StoreLocationSearchSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/steps/StoreLocationSearchSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/steps/SubmittedSuggestAddressSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/steps/SubmittedSuggestAddressSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/steps/SuggestAnAddressSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/steps/SuggestAnAddressSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/nzpost/automation/steps/UserRegistrationSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/steps/UserRegistrationSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/nz/co/nzpost/automation/api/PostshopLocationsApiClientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/nz/co/amp/automation/api/PostshopLocationsApiClientTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/nz/co/nzpost/automation/domain/SuggestionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/nz/co/amp/automation/domain/SuggestionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/nz/co/nzpost/automation/io/FilePathBuilderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/nz/co/amp/automation/io/FilePathBuilderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fasterxml/jackson/databind/deser/RandomGeneratorDeserializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fasterxml/jackson/databind/deser/RandomGeneratorDeserializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/CucumberRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/annotations/AfterAll.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/annotations/BeforeAll.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/annotations/Page.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/api/ApiProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/api/ParcelAddressApiClientV1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/api/ParcelCollectionApiClientV1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/api/PostshopLocationsApiClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/api/PostshopLocationsApiClientV2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/api/PostshopSuggestionsApiClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/api/responses/GetParcelAddressResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/api/responses/GetPostshopLocationsResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/api/responses/GetPostshopSuggestionsResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/aspectj/GlobalHooksAspectJ$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/aspectj/GlobalHooksAspectJ.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/browser/Browser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/configuration/AutomationConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/configuration/LoggingRequestInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/domain/Address.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/domain/AddressDetails.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/domain/AddressResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/domain/AddressResultMessage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/domain/AddressResultType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/domain/AddressSuggestion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/domain/ContactDetails.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/domain/Geolocation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/domain/GeolocationDisabled.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/domain/GetParcelCollectionResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/domain/HoursEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/domain/MapExtent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/domain/MapHolder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/domain/OpeningHour.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/domain/ParcelAddress$ParcelAddressBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/domain/ParcelAddress.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/domain/ParcelCheck$ParcelCheckBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/domain/ParcelCheck.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/domain/ParcelCollectionLocation$ParcelCollectionLocationBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/domain/ParcelCollectionLocation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/domain/PaymentDetails.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/domain/PostShopSuggestions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/domain/PostshopLocation$PostshopLocationBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/domain/PostshopLocation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/domain/PostshopLocationDetails.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/domain/Query.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/domain/QueryType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/domain/RedeliveryDetails.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/domain/StoreLocationResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/domain/StoreLocationSuggestion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/domain/SuccessDetails.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/domain/Suggestion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/domain/TrackingNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/exception/ElementNotFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/external/CloudProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/external/ExternalClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/external/ExternalDriverManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/external/saucelabs/SaucelabsClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/external/saucelabs/SaucelabsDriverManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/external/saucelabs/SaucelabsProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/io/FilePathBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/io/FileReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/io/ImageReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/io/JsonReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/io/JsonWriter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/io/ModelFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/io/random/DefaultRandomValueGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/io/random/RandomKeyWord.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/io/random/RandomValueGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/io/random/RandomValueGeneratorFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/page/AddressSearchPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/page/HomePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/page/ParceForYouContactDetailsPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/page/ParcelForYouAuthorisedLeavePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/page/ParcelForYouCollectionPointPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/page/ParcelForYouDateTimePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/page/ParcelForYouNewlDeliveryAddressPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/page/ParcelForYouOriginalDeliveryAddressPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/page/ParcelForYouPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/page/ParcelForYouPaymentPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/page/ParcelForYouRedeliveryOptionsPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/page/ParcelForYouSuccessPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/page/ParcelForYouSummaryPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/page/StoreLocatorPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/page/SubmittedSuggestAddressPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/page/SuggestAddressPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/page/UserRegistrationPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/report/CucumberDetailsReportGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/report/ReportGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/screenshot/ScreenshotTaker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/screenshot/ashot/ScreenshotTakerAshot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/steps/AddressSearchMapSteps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/steps/AddressSearchSteps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/steps/HomePageSteps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/steps/Hooks.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/steps/NavigateToSuggestAnAddressSteps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/steps/ParcelAddressApiSteps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/steps/ParcelCollectionApiSteps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/steps/ParcelForYouAuthorisedLeaveSteps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/steps/ParcelForYouCollectionPointSteps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/steps/ParcelForYouContactDetailsSteps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/steps/ParcelForYouDateTimeSteps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/steps/ParcelForYouNewDeliveryAddressSteps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/steps/ParcelForYouOriginalDeliveryAddressSteps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/steps/ParcelForYouPaymentSteps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/steps/ParcelForYouRedeliverDifferentAddressSteps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/steps/ParcelForYouRedeliveryOptionsSteps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/steps/ParcelForYouSteps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/steps/ParcelForYouSummarySteps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/steps/PostshopLocattionsApiSteps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/steps/StoreLocationSearchMapSteps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/steps/StoreLocationSearchSteps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/steps/SubmittedSuggestAddressSteps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/steps/SuggestAnAddressSteps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nz/co/nzpost/automation/steps/UserRegistrationSteps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/nz/co/nzpost/automation/api/PostshopLocationsApiClientTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/nz/co/nzpost/automation/domain/SuggestionTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/nz/co/nzpost/automation/io/FilePathBuilderTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +255,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1XRouXQ3Tdtjle9tEvcHnLC2uTW" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -29,10 +272,10 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="http.proxy" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RunManager" selected="Cucumber java.Scenario: User is on registration page">
     <configuration name="Scenario: No postcode or address using enter (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
@@ -40,7 +283,7 @@
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/user-registration.feature" />
       <option name="GLUE" value="cucumber.api.spring nz.co.nzpost.automation.steps" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="nzpost-web-replatform-tests" />
+      <module name="amp-community-portal-tests" />
       <option name="NAME_FILTER" value="^No postcode or address using enter$" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^No postcode or address using enter$&quot;" />
       <option name="SUGGESTED_NAME" value="Scenario: No postcode or address using enter" />
@@ -59,7 +302,7 @@
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/address-search.feature" />
       <option name="GLUE" value="cucumber.api.spring nz.co.nzpost.automation.steps" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="nzpost-web-replatform-tests" />
+      <module name="amp-community-portal-tests" />
       <option name="NAME_FILTER" value="^No postcode or address using enter$" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^No postcode or address using enter$&quot;" />
       <option name="SUGGESTED_NAME" value="Scenario: No postcode or address using enter" />
@@ -76,9 +319,9 @@
     <configuration name="Scenario: User is on registration page" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/user-registration.feature" />
-      <option name="GLUE" value="nz.co.nzpost.automation.steps" />
+      <option name="GLUE" value="nz.co.amp.automation.steps" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="nzpost-web-replatform-tests" />
+      <module name="amp-community-portal-tests" />
       <option name="NAME_FILTER" value="^User is on registration page$" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^User is on registration page$&quot;" />
       <option name="SUGGESTED_NAME" value="Scenario: User is on registration page" />
@@ -143,66 +386,89 @@
       <option name="project" value="LOCAL" />
       <updated>1582338712078</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="test123">
+      <created>1582339251433</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1582339251433</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="test123" />
+    <option name="LAST_COMMIT_MESSAGE" value="test123" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="179" key="#Notifications" timestamp="1582334757330">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="179" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1582334757330" />
-    <state x="414" y="176" width="1001" height="688" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582249580329">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="2094" y="150" width="1001" height="688" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582496096542">
+      <screen x="1680" y="-26" width="1920" height="1040" />
     </state>
+    <state x="2094" y="150" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1680.0.1680.1010/0.0.1680.1010/1680.-26.1920.1040@1680.-26.1920.1040" timestamp="1582496096542" />
     <state x="414" y="176" width="1001" height="688" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582249580329" />
-    <state x="614" y="115" key="CommitChangelistDialog2" timestamp="1582338710701">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="2094" y="150" key="#com.intellij.execution.impl.EditConfigurationsDialog/1680.-26.1920.1040/-1680.0.1680.1010/0.0.1680.1010@1680.-26.1920.1040" timestamp="1582494771917" />
+    <state x="2279" y="182" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1582493275127">
+      <screen x="1680" y="-26" width="1920" height="1040" />
     </state>
-    <state x="614" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1582338710701" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1582335905538">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="2279" y="182" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/1680.-26.1920.1040/-1680.0.1680.1010/0.0.1680.1010@1680.-26.1920.1040" timestamp="1582493275127" />
+    <state x="2294" y="89" key="CommitChangelistDialog2" timestamp="1582501033750">
+      <screen x="1680" y="-26" width="1920" height="1040" />
     </state>
+    <state x="2294" y="89" key="CommitChangelistDialog2/-1680.0.1680.1010/0.0.1680.1010/1680.-26.1920.1040@1680.-26.1920.1040" timestamp="1582501033750" />
+    <state x="614" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1582339250098" />
+    <state x="2420" y="249" key="FileChooserDialogImpl" timestamp="1582496854929">
+      <screen x="1680" y="-26" width="1920" height="1040" />
+    </state>
+    <state x="2420" y="249" key="FileChooserDialogImpl/-1680.0.1680.1010/0.0.1680.1010/1680.-26.1920.1040@1680.-26.1920.1040" timestamp="1582496854929" />
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1582335905538" />
     <state x="788" y="414" key="Github.ShareDialog" timestamp="1582339188733">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="788" y="414" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582339188733" />
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1582331019934">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1582501033792">
+      <screen x="1680" y="-26" width="1920" height="1040" />
     </state>
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom/-1680.0.1680.1010/0.0.1680.1010/1680.-26.1920.1040@1680.-26.1920.1040" timestamp="1582501033792" />
     <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582331019934" />
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom/1680.-26.1920.1040/-1680.0.1680.1010/0.0.1680.1010@1680.-26.1920.1040" timestamp="1582251745913" />
-    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1582331019934">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom/1680.-26.1920.1040/-1680.0.1680.1010/0.0.1680.1010@1680.-26.1920.1040" timestamp="1582494669730" />
+    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1582501033792">
+      <screen x="1680" y="-26" width="1920" height="1040" />
     </state>
+    <state width="1877" height="281" key="GridCell.Tab.0.center/-1680.0.1680.1010/0.0.1680.1010/1680.-26.1920.1040@1680.-26.1920.1040" timestamp="1582501033792" />
     <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582331019934" />
-    <state width="1877" height="281" key="GridCell.Tab.0.center/1680.-26.1920.1040/-1680.0.1680.1010/0.0.1680.1010@1680.-26.1920.1040" timestamp="1582251745912" />
-    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1582331019934">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="281" key="GridCell.Tab.0.center/1680.-26.1920.1040/-1680.0.1680.1010/0.0.1680.1010@1680.-26.1920.1040" timestamp="1582494669730" />
+    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1582501033791">
+      <screen x="1680" y="-26" width="1920" height="1040" />
     </state>
+    <state width="1877" height="281" key="GridCell.Tab.0.left/-1680.0.1680.1010/0.0.1680.1010/1680.-26.1920.1040@1680.-26.1920.1040" timestamp="1582501033791" />
     <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582331019934" />
-    <state width="1877" height="281" key="GridCell.Tab.0.left/1680.-26.1920.1040/-1680.0.1680.1010/0.0.1680.1010@1680.-26.1920.1040" timestamp="1582251745912" />
-    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1582331019934">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="281" key="GridCell.Tab.0.left/1680.-26.1920.1040/-1680.0.1680.1010/0.0.1680.1010@1680.-26.1920.1040" timestamp="1582494669730" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1582501033792">
+      <screen x="1680" y="-26" width="1920" height="1040" />
     </state>
+    <state width="1877" height="281" key="GridCell.Tab.0.right/-1680.0.1680.1010/0.0.1680.1010/1680.-26.1920.1040@1680.-26.1920.1040" timestamp="1582501033792" />
     <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582331019934" />
-    <state width="1877" height="281" key="GridCell.Tab.0.right/1680.-26.1920.1040/-1680.0.1680.1010/0.0.1680.1010@1680.-26.1920.1040" timestamp="1582251745913" />
-    <state x="461" y="163" key="SettingsEditor" timestamp="1582336662813">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right/1680.-26.1920.1040/-1680.0.1680.1010/0.0.1680.1010@1680.-26.1920.1040" timestamp="1582494669730" />
+    <state x="2141" y="137" key="SettingsEditor" timestamp="1582496885820">
+      <screen x="1680" y="-26" width="1920" height="1040" />
     </state>
+    <state x="2141" y="137" key="SettingsEditor/-1680.0.1680.1010/0.0.1680.1010/1680.-26.1920.1040@1680.-26.1920.1040" timestamp="1582496885820" />
     <state x="461" y="163" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1582336662813" />
-    <state x="552" y="254" key="Vcs.Push.Dialog.v2" timestamp="1582339131119">
+    <state x="2141" y="137" key="SettingsEditor/1680.-26.1920.1040/-1680.0.1680.1010/0.0.1680.1010@1680.-26.1920.1040" timestamp="1582493959916" />
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2" timestamp="1582339259598">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1582339131119" />
-    <state x="655" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1582338538324">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1582339259598" />
+    <state x="2335" y="319" key="com.intellij.ide.util.TipDialog" timestamp="1582493257746">
+      <screen x="1680" y="-26" width="1920" height="1040" />
     </state>
     <state x="655" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582338538324" />
+    <state x="2335" y="319" key="com.intellij.ide.util.TipDialog/1680.-26.1920.1040/-1680.0.1680.1010/0.0.1680.1010@1680.-26.1920.1040" timestamp="1582493257746" />
     <state x="629" y="118" width="661" height="804" key="find.popup" timestamp="1582096864515">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -8,8 +8,8 @@
     <version>2.0.4.RELEASE</version>
   </parent>
 
-  <groupId>nzpost.co.nz</groupId>
-  <artifactId>nzpost-web-replatform-tests</artifactId>
+  <groupId>amp.co.nz</groupId>
+  <artifactId>amp-community-portal-tests</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 
   <name>${project.artifactId}</name>

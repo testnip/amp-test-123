@@ -6,16 +6,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="nzpost-web-replatform-tests" />
+        <module name="amp-community-portal-tests" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="nzpost-web-replatform-tests" target="1.8" />
+      <module name="amp-community-portal-tests" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="nzpost-web-replatform-tests" options="-parameters" />
+      <module name="amp-community-portal-tests" options="-parameters" />
     </option>
   </component>
 </project>

@@ -6,8 +6,8 @@ import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 import com.fasterxml.jackson.databind.node.TextNode;
 import com.fasterxml.jackson.databind.node.TreeTraversingParser;
-import nz.co.nzpost.automation.io.random.RandomValueGenerator;
-import nz.co.nzpost.automation.io.random.RandomValueGeneratorFactory;
+import nz.co.amp.automation.io.random.RandomValueGenerator;
+import nz.co.amp.automation.io.random.RandomValueGeneratorFactory;
 
 import java.io.IOException;
 import java.util.Iterator;

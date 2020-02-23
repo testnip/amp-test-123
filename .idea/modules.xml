@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/nzpost-web-replatform-tests.iml" filepath="$PROJECT_DIR$/nzpost-web-replatform-tests.iml" />
+      <module fileurl="file://$PROJECT_DIR$/amp-community-portal-tests.iml" filepath="$PROJECT_DIR$/amp-community-portal-tests.iml" />
     </modules>
   </component>
 </project>

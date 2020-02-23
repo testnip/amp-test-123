@@ -1,7 +1,7 @@
 # How to run
 ## Run from IntelliJ
 ### Run a test suite
-1. Right click on `nz.co.nzpost.automation.CucumberRunner`.
+1. Right click on `nz.co.amp.automation.CucumberRunner`.
 2. Select `Run CucumberRunner`. 
 
 To target the set of test suite you would like to run, you can do the following in CucumberRunner options:
