@@ -3,35 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7b450bb5-b9dc-4d6d-9f04-90c247a845b1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/api/ApiProperties.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/api/ParcelAddressApiClientV1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/api/ParcelCollectionApiClientV1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/api/PostshopLocationsApiClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/api/PostshopLocationsApiClientV2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/api/PostshopSuggestionsApiClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/api/responses/GetParcelAddressResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/api/responses/GetParcelCollectionResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/domain/GetParcelCollectionResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/api/responses/GetPostshopLocationsResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/api/responses/GetPostshopSuggestionsResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/browser/Browser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/browser/Browser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/page/UserRegistrationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/page/UserRegistrationPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/steps/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/steps/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/steps/ParcelAddressApiSteps.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/steps/ParcelCollectionApiSteps.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/steps/PostshopLocattionsApiSteps.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application-uat.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-uat.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/nz/co/amp/automation/api/PostshopLocationsApiClientTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application-cloud.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application-dev.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application-drupaluat.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application-ie.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application-safari.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application-sit.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application-uat.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application-uat.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/banner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/banner.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/features/homepage.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/features/user-registration.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/features/user-registration.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -241,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582512250379</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added some new scenarios and classes">
+      <created>1582660863592</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1582660863592</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -249,7 +227,8 @@
     <MESSAGE value="test123" />
     <MESSAGE value="Changed package name" />
     <MESSAGE value="Added new feature file and step definition&#10;Removed some application files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added new feature file and step definition&#10;Removed some application files" />
+    <MESSAGE value="Added some new scenarios and classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added some new scenarios and classes" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="179" key="#Notifications" timestamp="1582334757330">
@@ -279,11 +258,12 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="570" y="253" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/3360.0.1920.1040/1680.0.1680.1010/0.0.1680.1010@0.0.1680.1010" timestamp="1582603289354" />
-    <state x="2294" y="89" key="CommitChangelistDialog2" timestamp="1582512247940">
-      <screen x="1680" y="-26" width="1920" height="1040" />
+    <state x="537" y="112" key="CommitChangelistDialog2" timestamp="1582660861792">
+      <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="2294" y="89" key="CommitChangelistDialog2/-1680.0.1680.1010/0.0.1680.1010/1680.-26.1920.1040@1680.-26.1920.1040" timestamp="1582512247940" />
     <state x="614" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1582339250098" />
+    <state x="537" y="112" key="CommitChangelistDialog2/3360.0.1920.1040/1680.0.1680.1010/0.0.1680.1010@0.0.1680.1010" timestamp="1582660861792" />
     <state x="4100" y="275" key="FileChooserDialogImpl" timestamp="1582589870484">
       <screen x="3360" y="0" width="1920" height="1040" />
     </state>
@@ -332,11 +312,12 @@
     <state x="2141" y="137" key="SettingsEditor/-1680.0.1680.1010/0.0.1680.1010/1680.-26.1920.1040@1680.-26.1920.1040" timestamp="1582496885820" />
     <state x="461" y="163" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1582336662813" />
     <state x="2141" y="137" key="SettingsEditor/1680.-26.1920.1040/-1680.0.1680.1010/0.0.1680.1010@1680.-26.1920.1040" timestamp="1582493959916" />
-    <state x="2232" y="228" key="Vcs.Push.Dialog.v2" timestamp="1582512256222">
-      <screen x="1680" y="-26" width="1920" height="1040" />
+    <state x="483" y="247" key="Vcs.Push.Dialog.v2" timestamp="1582660867274">
+      <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="2232" y="228" key="Vcs.Push.Dialog.v2/-1680.0.1680.1010/0.0.1680.1010/1680.-26.1920.1040@1680.-26.1920.1040" timestamp="1582512256222" />
     <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1582339259598" />
+    <state x="483" y="247" key="Vcs.Push.Dialog.v2/3360.0.1920.1040/1680.0.1680.1010/0.0.1680.1010@0.0.1680.1010" timestamp="1582660867274" />
     <state x="4136" y="299" key="chooseDestDirectoryDialog" timestamp="1582575787034">
       <screen x="3360" y="0" width="1920" height="1040" />
     </state>
