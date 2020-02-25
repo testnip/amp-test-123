@@ -19,10 +19,10 @@ Calendar now = Calendar.getInstance()
  * Jenkins job will use the stakeHolderEmail list when the build runs between 4am - 6am everyday
  * At other times, use the email of the committer
  */
-String stakeHolderEmails = 'web-re-platform@nzpost.co.nz'
+String stakeHolderEmails = ''
 boolean isNightlyBuildTime = now.after(start) && now.before(end)
 String additionalEmails = isNightlyBuildTime ? stakeHolderEmails : ''
-String ownerEmails = 'nick.tran@nzpost.co.nz,nipun.mahajan@nzpost.co.nz'
+String ownerEmails = ''
 
 pipeline {
     agent none
@@ -31,7 +31,7 @@ pipeline {
     }
 
     stages {
-        stage('sit') {
+        stage('uat') {
             when {
                 beforeAgent true
                 branch 'sit'

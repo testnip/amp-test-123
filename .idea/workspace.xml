@@ -2,7 +2,78 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b450bb5-b9dc-4d6d-9f04-90c247a845b1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/browser/Locators.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/browser/Browser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/browser/Browser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/domain/GetParcelCollectionResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/domain/MapExtent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/domain/OpeningHour.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/domain/ParcelAddress.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/domain/ParcelCheck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/domain/PaymentDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/domain/PostShopSuggestions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/domain/PostshopLocation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/domain/PostshopLocationDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/domain/Query.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/domain/RedeliveryDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/domain/StoreLocationResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/domain/StoreLocationSuggestion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/domain/TrackingNumber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/page/ParceForYouContactDetailsPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/page/ParcelForYouAuthorisedLeavePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/page/ParcelForYouCollectionPointPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/page/ParcelForYouDateTimePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/page/ParcelForYouNewlDeliveryAddressPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/page/ParcelForYouOriginalDeliveryAddressPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/page/ParcelForYouPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/page/ParcelForYouPaymentPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/page/ParcelForYouRedeliveryOptionsPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/page/ParcelForYouSuccessPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/page/ParcelForYouSummaryPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/page/StoreLocatorPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/steps/AddressSearchMapSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/steps/AddressSearchSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/steps/NavigateToSuggestAnAddressSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/steps/ParcelForYouAuthorisedLeaveSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/steps/ParcelForYouCollectionPointSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/steps/ParcelForYouContactDetailsSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/steps/ParcelForYouDateTimeSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/steps/ParcelForYouNewDeliveryAddressSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/steps/ParcelForYouOriginalDeliveryAddressSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/steps/ParcelForYouPaymentSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/steps/ParcelForYouRedeliverDifferentAddressSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/steps/ParcelForYouRedeliveryOptionsSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/steps/ParcelForYouSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/steps/ParcelForYouSummarySteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/steps/StoreLocationSearchMapSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/steps/StoreLocationSearchSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/address-search-errors.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/address-search-map.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/apis/parcel-address-v1.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/apis/parcel-collection-v1.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/apis/postshop-locations-v1.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/apis/postshop-locations-v2.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/navigate-to-suggest-address.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/parcel-for-you-authorised-leave.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/parcel-for-you-collection-point.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/parcel-for-you-contact-details.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/parcel-for-you-new-delivery-address.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/parcel-for-you-original-delivery-address.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/parcel-for-you-redeliver-collection-point.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/parcel-for-you-redeliver-date-time.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/parcel-for-you-redeliver-different-address.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/parcel-for-you-redeliver-same-address-payment.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/parcel-for-you-redeliver-same-address-summary.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/parcel-for-you-redelivery-options.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/parcel-for-you-summary-without-atl.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/parcel-for-you.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/store-locator-clear-search.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/store-locator-map-interaction-result-list.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/store-locator-quick-search.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/store-locator-search-map.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/store-locator-search.feature" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +107,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/domain" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Customer_Portal_Automation" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -44,6 +115,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="nz.co.amp.automation.domain" />
       <recent name="nz.co.amp.automation" />
       <recent name="nz.co.amp.automation.common" />
       <recent name="nz.co.amp.automation.page" />
@@ -219,7 +291,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582660863592</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added some new scenarios and classes">
+      <created>1582661942225</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1582661942225</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -254,16 +333,16 @@
       <screen x="1680" y="-26" width="1920" height="1040" />
     </state>
     <state x="2436" y="354" width="407" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/-1680.0.1680.1010/0.0.1680.1010/1680.-26.1920.1040@1680.-26.1920.1040" timestamp="1582511844721" />
-    <state x="570" y="253" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1582603289354">
+    <state x="570" y="253" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1582667999929">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="570" y="253" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/3360.0.1920.1040/1680.0.1680.1010/0.0.1680.1010@0.0.1680.1010" timestamp="1582603289354" />
-    <state x="537" y="112" key="CommitChangelistDialog2" timestamp="1582660861792">
+    <state x="570" y="253" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/3360.0.1920.1040/1680.0.1680.1010/0.0.1680.1010@0.0.1680.1010" timestamp="1582667999929" />
+    <state x="537" y="112" key="CommitChangelistDialog2" timestamp="1582661940975">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="2294" y="89" key="CommitChangelistDialog2/-1680.0.1680.1010/0.0.1680.1010/1680.-26.1920.1040@1680.-26.1920.1040" timestamp="1582512247940" />
     <state x="614" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1582339250098" />
-    <state x="537" y="112" key="CommitChangelistDialog2/3360.0.1920.1040/1680.0.1680.1010/0.0.1680.1010@0.0.1680.1010" timestamp="1582660861792" />
+    <state x="537" y="112" key="CommitChangelistDialog2/3360.0.1920.1040/1680.0.1680.1010/0.0.1680.1010@0.0.1680.1010" timestamp="1582661940975" />
     <state x="4100" y="275" key="FileChooserDialogImpl" timestamp="1582589870484">
       <screen x="3360" y="0" width="1920" height="1040" />
     </state>
@@ -274,37 +353,37 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="788" y="414" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582339188733" />
-    <state width="1877" height="271" key="GridCell.Tab.0.bottom" timestamp="1582619524160">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1637" height="271" key="GridCell.Tab.0.bottom" timestamp="1582668933988">
+      <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state width="1877" height="281" key="GridCell.Tab.0.bottom/-1680.0.1680.1010/0.0.1680.1010/1680.-26.1920.1040@1680.-26.1920.1040" timestamp="1582511568592" />
     <state width="1877" height="271" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582619524160" />
     <state width="1877" height="281" key="GridCell.Tab.0.bottom/1680.-26.1920.1040/-1680.0.1680.1010/0.0.1680.1010@1680.-26.1920.1040" timestamp="1582494669730" />
-    <state width="1637" height="271" key="GridCell.Tab.0.bottom/3360.0.1920.1040/1680.0.1680.1010/0.0.1680.1010@0.0.1680.1010" timestamp="1582603351846" />
+    <state width="1637" height="271" key="GridCell.Tab.0.bottom/3360.0.1920.1040/1680.0.1680.1010/0.0.1680.1010@0.0.1680.1010" timestamp="1582668933988" />
     <state width="1877" height="281" key="GridCell.Tab.0.bottom/3360.0.1920.1040/1680.0.1680.1010/0.0.1680.1010@3360.0.1920.1040" timestamp="1582593371332" />
-    <state width="1877" height="271" key="GridCell.Tab.0.center" timestamp="1582619524160">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1637" height="271" key="GridCell.Tab.0.center" timestamp="1582668933988">
+      <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state width="1877" height="281" key="GridCell.Tab.0.center/-1680.0.1680.1010/0.0.1680.1010/1680.-26.1920.1040@1680.-26.1920.1040" timestamp="1582511568592" />
     <state width="1877" height="271" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582619524160" />
     <state width="1877" height="281" key="GridCell.Tab.0.center/1680.-26.1920.1040/-1680.0.1680.1010/0.0.1680.1010@1680.-26.1920.1040" timestamp="1582494669730" />
-    <state width="1637" height="271" key="GridCell.Tab.0.center/3360.0.1920.1040/1680.0.1680.1010/0.0.1680.1010@0.0.1680.1010" timestamp="1582603351846" />
+    <state width="1637" height="271" key="GridCell.Tab.0.center/3360.0.1920.1040/1680.0.1680.1010/0.0.1680.1010@0.0.1680.1010" timestamp="1582668933988" />
     <state width="1877" height="281" key="GridCell.Tab.0.center/3360.0.1920.1040/1680.0.1680.1010/0.0.1680.1010@3360.0.1920.1040" timestamp="1582593371332" />
-    <state width="1877" height="271" key="GridCell.Tab.0.left" timestamp="1582619524160">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1637" height="271" key="GridCell.Tab.0.left" timestamp="1582668933988">
+      <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state width="1877" height="281" key="GridCell.Tab.0.left/-1680.0.1680.1010/0.0.1680.1010/1680.-26.1920.1040@1680.-26.1920.1040" timestamp="1582511568592" />
     <state width="1877" height="271" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582619524160" />
     <state width="1877" height="281" key="GridCell.Tab.0.left/1680.-26.1920.1040/-1680.0.1680.1010/0.0.1680.1010@1680.-26.1920.1040" timestamp="1582494669730" />
-    <state width="1637" height="271" key="GridCell.Tab.0.left/3360.0.1920.1040/1680.0.1680.1010/0.0.1680.1010@0.0.1680.1010" timestamp="1582603351846" />
+    <state width="1637" height="271" key="GridCell.Tab.0.left/3360.0.1920.1040/1680.0.1680.1010/0.0.1680.1010@0.0.1680.1010" timestamp="1582668933988" />
     <state width="1877" height="281" key="GridCell.Tab.0.left/3360.0.1920.1040/1680.0.1680.1010/0.0.1680.1010@3360.0.1920.1040" timestamp="1582593371332" />
-    <state width="1877" height="271" key="GridCell.Tab.0.right" timestamp="1582619524160">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1637" height="271" key="GridCell.Tab.0.right" timestamp="1582668933988">
+      <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state width="1877" height="281" key="GridCell.Tab.0.right/-1680.0.1680.1010/0.0.1680.1010/1680.-26.1920.1040@1680.-26.1920.1040" timestamp="1582511568592" />
     <state width="1877" height="271" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582619524160" />
     <state width="1877" height="281" key="GridCell.Tab.0.right/1680.-26.1920.1040/-1680.0.1680.1010/0.0.1680.1010@1680.-26.1920.1040" timestamp="1582494669730" />
-    <state width="1637" height="271" key="GridCell.Tab.0.right/3360.0.1920.1040/1680.0.1680.1010/0.0.1680.1010@0.0.1680.1010" timestamp="1582603351846" />
+    <state width="1637" height="271" key="GridCell.Tab.0.right/3360.0.1920.1040/1680.0.1680.1010/0.0.1680.1010@0.0.1680.1010" timestamp="1582668933988" />
     <state width="1877" height="281" key="GridCell.Tab.0.right/3360.0.1920.1040/1680.0.1680.1010/0.0.1680.1010@3360.0.1920.1040" timestamp="1582593371332" />
     <state x="2141" y="137" key="SettingsEditor" timestamp="1582496885820">
       <screen x="1680" y="-26" width="1920" height="1040" />
@@ -312,12 +391,12 @@
     <state x="2141" y="137" key="SettingsEditor/-1680.0.1680.1010/0.0.1680.1010/1680.-26.1920.1040@1680.-26.1920.1040" timestamp="1582496885820" />
     <state x="461" y="163" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1582336662813" />
     <state x="2141" y="137" key="SettingsEditor/1680.-26.1920.1040/-1680.0.1680.1010/0.0.1680.1010@1680.-26.1920.1040" timestamp="1582493959916" />
-    <state x="483" y="247" key="Vcs.Push.Dialog.v2" timestamp="1582660867274">
+    <state x="483" y="247" key="Vcs.Push.Dialog.v2" timestamp="1582661966709">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="2232" y="228" key="Vcs.Push.Dialog.v2/-1680.0.1680.1010/0.0.1680.1010/1680.-26.1920.1040@1680.-26.1920.1040" timestamp="1582512256222" />
     <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1582339259598" />
-    <state x="483" y="247" key="Vcs.Push.Dialog.v2/3360.0.1920.1040/1680.0.1680.1010/0.0.1680.1010@0.0.1680.1010" timestamp="1582660867274" />
+    <state x="483" y="247" key="Vcs.Push.Dialog.v2/3360.0.1920.1040/1680.0.1680.1010/0.0.1680.1010@0.0.1680.1010" timestamp="1582661966709" />
     <state x="4136" y="299" key="chooseDestDirectoryDialog" timestamp="1582575787034">
       <screen x="3360" y="0" width="1920" height="1040" />
     </state>

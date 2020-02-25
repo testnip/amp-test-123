@@ -35,7 +35,7 @@ Put this in VM Arguments field and replace <path to project> with correct path
 -Dselenide.browser=safari
 ```
 
-#### Saucelabs
+#### Profile settings
 -Dcloud.enabled=true -Dspring.profiles.active=dev
 
 ## Run from command line
@@ -53,28 +53,6 @@ $ mvn clean verify
 ```
 $ mvn clean verify -Pfirefox
 ```
-
-#### Safari
-```
-$ mvn clean verify -Psafari
-```
-
-#### Saucelabs
-```
-$ mvn clean verify -Pcloud
-```
-
-# Saucelabs 
-## Test Configuration Options
-https://wiki.saucelabs.com/display/DOCS/Test+Configuration+Options
-
-## Test Configuration Console
-https://wiki.saucelabs.com/display/DOCS/Platform+Configurator#/
-
-## Sauce Connect
-https://wiki.saucelabs.com/display/DOCS/Basic+Sauce+Connect+Proxy+Setup
-
-Remember to use localhost once sauce connect is enabled
 
 ## Define cucmber options in commandline
 ```

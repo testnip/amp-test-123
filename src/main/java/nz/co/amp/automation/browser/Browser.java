@@ -1,6 +1,7 @@
 package nz.co.amp.automation.browser;
 
 import com.codeborne.selenide.WebDriverRunner;
+import io.github.sukgu.Shadow;
 import nz.co.amp.automation.domain.GeolocationDisabled;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -11,33 +12,36 @@ import org.springframework.stereotype.Component;
 @Component
 public class Browser {
 
-  public void sendKeysToInputAtSpeed(String string, WebElement webElement, int milliSeconds) throws InterruptedException {
-    for (char character : string.toCharArray()) {
-      webElement.sendKeys(String.valueOf(character));
-      Thread.sleep(milliSeconds);
+    public void sendKeysToInputAtSpeed(String string, WebElement webElement, int milliSeconds) throws InterruptedException {
+        for (char character : string.toCharArray()) {
+            webElement.sendKeys(String.valueOf(character));
+            Thread.sleep(milliSeconds);
+        }
     }
-  }
 
 
-  public WebDriver chromeGeolocationDisabled() {
+    public WebDriver chromeGeolocationDisabled() {
 
 
-    GeolocationDisabled prefs = new GeolocationDisabled();
+        GeolocationDisabled prefs = new GeolocationDisabled();
 
-    // Set the notification setting it will override the default setting
-    prefs.put("profile.default_content_setting_values.geolocation", 2);
+        // Set the notification setting it will override the default setting
+        prefs.put("profile.default_content_setting_values.geolocation", 2);
 
-    // Create object of ChromeOption class
-    ChromeOptions options = new ChromeOptions();
+        // Create object of ChromeOption class
+        ChromeOptions options = new ChromeOptions();
 
-    // Set the experimental option
-    options.setExperimentalOption("prefs", prefs);
+        // Set the experimental option
+        options.setExperimentalOption("prefs", prefs);
 
-    // pass the options object in Chrome driver
+        // pass the options object in Chrome driver
 
-    WebDriver driver = new ChromeDriver(options);
+        WebDriver driver = new ChromeDriver(options);
 
-    WebDriverRunner.setWebDriver(driver);
-    return driver;
-  }
+        WebDriverRunner.setWebDriver(driver);
+        return driver;
+    }
 }
+
+
+
