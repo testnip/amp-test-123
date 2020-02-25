@@ -3,20 +3,35 @@
   <component name="ChangeListManager">
     <list default="true" id="7b450bb5-b9dc-4d6d-9f04-90c247a845b1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/steps/HomePageSteps.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/steps/ParcelForYouRedeliverDifferentAddressSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/steps/ParcelForYouRedeliverDifferentAddressSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application-cloud.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application-dev.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application-drupaluat.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application-ie.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application-safari.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application-sit.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/api/ApiProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/api/ParcelAddressApiClientV1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/api/ParcelCollectionApiClientV1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/api/PostshopLocationsApiClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/api/PostshopLocationsApiClientV2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/api/PostshopSuggestionsApiClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/api/responses/GetParcelAddressResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/api/responses/GetParcelCollectionResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/domain/GetParcelCollectionResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/api/responses/GetPostshopLocationsResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/api/responses/GetPostshopSuggestionsResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/browser/Browser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/browser/Browser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/page/UserRegistrationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/page/UserRegistrationPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/steps/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/steps/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/steps/ParcelAddressApiSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/steps/ParcelCollectionApiSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/steps/PostshopLocattionsApiSteps.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application-uat.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-uat.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/banner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/banner.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/features/homepage.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/features/user-registration.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/user-registration.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/nz/co/amp/automation/api/PostshopLocationsApiClientTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application-cloud.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application-dev.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application-drupaluat.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application-ie.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application-safari.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application-sit.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application-uat.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application-uat.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/banner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/banner.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/features/homepage.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/features/user-registration.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/features/user-registration.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +64,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/steps" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/nz/co/amp/automation/domain" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Customer_Portal_Automation" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -57,13 +73,16 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="nz.co.amp.automation" />
+      <recent name="nz.co.amp.automation.common" />
+      <recent name="nz.co.amp.automation.page" />
       <recent name="nz.co.amp.automation.steps" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\amp-community-portal-tests\src\main\resources\features" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber java.Scenario: User is on registration page">
+  <component name="RunManager" selected="Cucumber java.Scenario: Select Communication Preference">
     <configuration name="Scenario: No postcode or address using enter (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/user-registration.feature" />
@@ -102,6 +121,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Scenario: Select Communication Preference" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/portal-my-details-communication-preferences.feature" />
+      <option name="GLUE" value="nz.co.amp.automation.steps" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="amp-community-portal-tests" />
+      <option name="NAME_FILTER" value="^Select Communication Preference$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Select Communication Preference$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Select Communication Preference" />
+      <option name="VM_PARAMETERS" value="-Dselenide.browser=chrome -Dwebdriver.chrome.driver=$PROJECT_DIR$/src/test/resources/drivers/chromedriver.exe -Dspring.profiles.active=uat" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Scenario: User is on registration page" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/user-registration.feature" />
@@ -126,9 +165,11 @@
       <item itemvalue="Cucumber java.Scenario: No postcode or address using enter" />
       <item itemvalue="Cucumber java.Scenario: User is on registration page" />
       <item itemvalue="Cucumber java.Scenario: No postcode or address using enter (1)" />
+      <item itemvalue="Cucumber java.Scenario: Select Communication Preference" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber java.Scenario: Select Communication Preference" />
         <item itemvalue="Cucumber java.Scenario: User is on registration page" />
         <item itemvalue="Cucumber java.Scenario: No postcode or address using enter (1)" />
         <item itemvalue="Cucumber java.Scenario: No postcode or address using enter" />
@@ -193,89 +234,119 @@
       <option name="project" value="LOCAL" />
       <updated>1582501306902</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added new feature file and step definition&#10;Removed some application files">
+      <created>1582512250379</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1582512250379</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
     <MESSAGE value="test123" />
     <MESSAGE value="Changed package name" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed package name" />
+    <MESSAGE value="Added new feature file and step definition&#10;Removed some application files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added new feature file and step definition&#10;Removed some application files" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="179" key="#Notifications" timestamp="1582334757330">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="179" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1582334757330" />
-    <state x="2094" y="150" width="1001" height="688" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582496096542">
-      <screen x="1680" y="-26" width="1920" height="1040" />
+    <state x="3774" y="176" width="1001" height="688" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582575383702">
+      <screen x="3360" y="0" width="1920" height="1040" />
     </state>
     <state x="2094" y="150" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1680.0.1680.1010/0.0.1680.1010/1680.-26.1920.1040@1680.-26.1920.1040" timestamp="1582496096542" />
     <state x="414" y="176" width="1001" height="688" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582249580329" />
-    <state x="2094" y="150" key="#com.intellij.execution.impl.EditConfigurationsDialog/1680.-26.1920.1040/-1680.0.1680.1010/0.0.1680.1010@1680.-26.1920.1040" timestamp="1582494771917" />
+    <state x="2094" y="150" key="#com.intellij.execution.impl.EditConfigurationsDialog/1680.-26.1920.1040/-1680.0.1680.1010/0.0.1680.1010@1680.-26.1920.1040" timestamp="1582517358344" />
+    <state x="3774" y="176" key="#com.intellij.execution.impl.EditConfigurationsDialog/3360.0.1920.1040/1680.0.1680.1010/0.0.1680.1010@3360.0.1920.1040" timestamp="1582575383702" />
     <state x="2279" y="182" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1582493275127">
       <screen x="1680" y="-26" width="1920" height="1040" />
     </state>
     <state x="2279" y="182" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/1680.-26.1920.1040/-1680.0.1680.1010/0.0.1680.1010@1680.-26.1920.1040" timestamp="1582493275127" />
+    <state x="4125" y="237" key="#com.intellij.ide.util.MemberChooser" timestamp="1582579706926">
+      <screen x="3360" y="0" width="1920" height="1040" />
+    </state>
+    <state x="4125" y="237" key="#com.intellij.ide.util.MemberChooser/3360.0.1920.1040/1680.0.1680.1010/0.0.1680.1010@3360.0.1920.1040" timestamp="1582579706926" />
     <state x="2436" y="354" width="407" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1582511844721">
       <screen x="1680" y="-26" width="1920" height="1040" />
     </state>
     <state x="2436" y="354" width="407" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/-1680.0.1680.1010/0.0.1680.1010/1680.-26.1920.1040@1680.-26.1920.1040" timestamp="1582511844721" />
-    <state x="2294" y="89" key="CommitChangelistDialog2" timestamp="1582501305900">
+    <state x="570" y="253" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1582603289354">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="570" y="253" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/3360.0.1920.1040/1680.0.1680.1010/0.0.1680.1010@0.0.1680.1010" timestamp="1582603289354" />
+    <state x="2294" y="89" key="CommitChangelistDialog2" timestamp="1582512247940">
       <screen x="1680" y="-26" width="1920" height="1040" />
     </state>
-    <state x="2294" y="89" key="CommitChangelistDialog2/-1680.0.1680.1010/0.0.1680.1010/1680.-26.1920.1040@1680.-26.1920.1040" timestamp="1582501305900" />
+    <state x="2294" y="89" key="CommitChangelistDialog2/-1680.0.1680.1010/0.0.1680.1010/1680.-26.1920.1040@1680.-26.1920.1040" timestamp="1582512247940" />
     <state x="614" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1582339250098" />
-    <state x="2420" y="249" key="FileChooserDialogImpl" timestamp="1582511807960">
-      <screen x="1680" y="-26" width="1920" height="1040" />
+    <state x="4100" y="275" key="FileChooserDialogImpl" timestamp="1582589870484">
+      <screen x="3360" y="0" width="1920" height="1040" />
     </state>
     <state x="2420" y="249" key="FileChooserDialogImpl/-1680.0.1680.1010/0.0.1680.1010/1680.-26.1920.1040@1680.-26.1920.1040" timestamp="1582511807960" />
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1582335905538" />
+    <state x="4100" y="275" key="FileChooserDialogImpl/3360.0.1920.1040/1680.0.1680.1010/0.0.1680.1010@3360.0.1920.1040" timestamp="1582589870484" />
     <state x="788" y="414" key="Github.ShareDialog" timestamp="1582339188733">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="788" y="414" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582339188733" />
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1582511568592">
-      <screen x="1680" y="-26" width="1920" height="1040" />
+    <state width="1877" height="271" key="GridCell.Tab.0.bottom" timestamp="1582619524160">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="281" key="GridCell.Tab.0.bottom/-1680.0.1680.1010/0.0.1680.1010/1680.-26.1920.1040@1680.-26.1920.1040" timestamp="1582511568592" />
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582331019934" />
+    <state width="1877" height="271" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582619524160" />
     <state width="1877" height="281" key="GridCell.Tab.0.bottom/1680.-26.1920.1040/-1680.0.1680.1010/0.0.1680.1010@1680.-26.1920.1040" timestamp="1582494669730" />
-    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1582511568592">
-      <screen x="1680" y="-26" width="1920" height="1040" />
+    <state width="1637" height="271" key="GridCell.Tab.0.bottom/3360.0.1920.1040/1680.0.1680.1010/0.0.1680.1010@0.0.1680.1010" timestamp="1582603351846" />
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom/3360.0.1920.1040/1680.0.1680.1010/0.0.1680.1010@3360.0.1920.1040" timestamp="1582593371332" />
+    <state width="1877" height="271" key="GridCell.Tab.0.center" timestamp="1582619524160">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="281" key="GridCell.Tab.0.center/-1680.0.1680.1010/0.0.1680.1010/1680.-26.1920.1040@1680.-26.1920.1040" timestamp="1582511568592" />
-    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582331019934" />
+    <state width="1877" height="271" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582619524160" />
     <state width="1877" height="281" key="GridCell.Tab.0.center/1680.-26.1920.1040/-1680.0.1680.1010/0.0.1680.1010@1680.-26.1920.1040" timestamp="1582494669730" />
-    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1582511568592">
-      <screen x="1680" y="-26" width="1920" height="1040" />
+    <state width="1637" height="271" key="GridCell.Tab.0.center/3360.0.1920.1040/1680.0.1680.1010/0.0.1680.1010@0.0.1680.1010" timestamp="1582603351846" />
+    <state width="1877" height="281" key="GridCell.Tab.0.center/3360.0.1920.1040/1680.0.1680.1010/0.0.1680.1010@3360.0.1920.1040" timestamp="1582593371332" />
+    <state width="1877" height="271" key="GridCell.Tab.0.left" timestamp="1582619524160">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="281" key="GridCell.Tab.0.left/-1680.0.1680.1010/0.0.1680.1010/1680.-26.1920.1040@1680.-26.1920.1040" timestamp="1582511568592" />
-    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582331019934" />
+    <state width="1877" height="271" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582619524160" />
     <state width="1877" height="281" key="GridCell.Tab.0.left/1680.-26.1920.1040/-1680.0.1680.1010/0.0.1680.1010@1680.-26.1920.1040" timestamp="1582494669730" />
-    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1582511568592">
-      <screen x="1680" y="-26" width="1920" height="1040" />
+    <state width="1637" height="271" key="GridCell.Tab.0.left/3360.0.1920.1040/1680.0.1680.1010/0.0.1680.1010@0.0.1680.1010" timestamp="1582603351846" />
+    <state width="1877" height="281" key="GridCell.Tab.0.left/3360.0.1920.1040/1680.0.1680.1010/0.0.1680.1010@3360.0.1920.1040" timestamp="1582593371332" />
+    <state width="1877" height="271" key="GridCell.Tab.0.right" timestamp="1582619524160">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="281" key="GridCell.Tab.0.right/-1680.0.1680.1010/0.0.1680.1010/1680.-26.1920.1040@1680.-26.1920.1040" timestamp="1582511568592" />
-    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582331019934" />
+    <state width="1877" height="271" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582619524160" />
     <state width="1877" height="281" key="GridCell.Tab.0.right/1680.-26.1920.1040/-1680.0.1680.1010/0.0.1680.1010@1680.-26.1920.1040" timestamp="1582494669730" />
+    <state width="1637" height="271" key="GridCell.Tab.0.right/3360.0.1920.1040/1680.0.1680.1010/0.0.1680.1010@0.0.1680.1010" timestamp="1582603351846" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right/3360.0.1920.1040/1680.0.1680.1010/0.0.1680.1010@3360.0.1920.1040" timestamp="1582593371332" />
     <state x="2141" y="137" key="SettingsEditor" timestamp="1582496885820">
       <screen x="1680" y="-26" width="1920" height="1040" />
     </state>
     <state x="2141" y="137" key="SettingsEditor/-1680.0.1680.1010/0.0.1680.1010/1680.-26.1920.1040@1680.-26.1920.1040" timestamp="1582496885820" />
     <state x="461" y="163" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1582336662813" />
     <state x="2141" y="137" key="SettingsEditor/1680.-26.1920.1040/-1680.0.1680.1010/0.0.1680.1010@1680.-26.1920.1040" timestamp="1582493959916" />
-    <state x="2232" y="228" key="Vcs.Push.Dialog.v2" timestamp="1582501311380">
+    <state x="2232" y="228" key="Vcs.Push.Dialog.v2" timestamp="1582512256222">
       <screen x="1680" y="-26" width="1920" height="1040" />
     </state>
-    <state x="2232" y="228" key="Vcs.Push.Dialog.v2/-1680.0.1680.1010/0.0.1680.1010/1680.-26.1920.1040@1680.-26.1920.1040" timestamp="1582501311380" />
+    <state x="2232" y="228" key="Vcs.Push.Dialog.v2/-1680.0.1680.1010/0.0.1680.1010/1680.-26.1920.1040@1680.-26.1920.1040" timestamp="1582512256222" />
     <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1582339259598" />
-    <state x="2335" y="319" key="com.intellij.ide.util.TipDialog" timestamp="1582512125747">
+    <state x="4136" y="299" key="chooseDestDirectoryDialog" timestamp="1582575787034">
+      <screen x="3360" y="0" width="1920" height="1040" />
+    </state>
+    <state x="4136" y="299" key="chooseDestDirectoryDialog/3360.0.1920.1040/1680.0.1680.1010/0.0.1680.1010@3360.0.1920.1040" timestamp="1582575787034" />
+    <state x="2335" y="319" key="com.intellij.ide.util.TipDialog" timestamp="1582512923907">
       <screen x="1680" y="-26" width="1920" height="1040" />
     </state>
     <state x="2335" y="319" key="com.intellij.ide.util.TipDialog/-1680.0.1680.1010/0.0.1680.1010/1680.-26.1920.1040@1680.-26.1920.1040" timestamp="1582512125747" />
     <state x="655" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582338538324" />
-    <state x="2335" y="319" key="com.intellij.ide.util.TipDialog/1680.-26.1920.1040/-1680.0.1680.1010/0.0.1680.1010@1680.-26.1920.1040" timestamp="1582493257746" />
+    <state x="2335" y="319" key="com.intellij.ide.util.TipDialog/1680.-26.1920.1040/-1680.0.1680.1010/0.0.1680.1010@1680.-26.1920.1040" timestamp="1582512923907" />
     <state x="629" y="118" width="661" height="804" key="find.popup" timestamp="1582096864515">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

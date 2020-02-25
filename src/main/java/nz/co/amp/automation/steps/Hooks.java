@@ -7,6 +7,7 @@ import cucumber.api.java.Before;
 import nz.co.amp.automation.annotations.AfterAll;
 import nz.co.amp.automation.annotations.BeforeAll;
 import nz.co.amp.automation.browser.Browser;
+import nz.co.amp.automation.browser.Locators;
 import nz.co.amp.automation.configuration.AutomationConfiguration;
 import nz.co.amp.automation.external.CloudProperties;
 import nz.co.amp.automation.external.ExternalClient;
@@ -30,93 +31,97 @@ import static org.openqa.selenium.OutputType.BYTES;
 @SpringBootTest
 public class Hooks {
 
-  private static final String API_TAG = "@api";
-  private final Logger log = LoggerFactory.getLogger(this.getClass());
+    private static final String API_TAG = "@api";
+    private final Logger log = LoggerFactory.getLogger(this.getClass());
 
-  private final ExternalClient externalClient;
-  private final ReportGenerator reportGenerator;
-  private final ExternalDriverManager externalDriverManager;
-  private final CloudProperties cloudProperties;
-  private final Browser browser;
+    private final ExternalClient externalClient;
+    private final ReportGenerator reportGenerator;
+    private final ExternalDriverManager externalDriverManager;
+    private final CloudProperties cloudProperties;
+    private final Browser browser;
+    private final Locators locators;
 
-  @Autowired
-  public Hooks(CloudProperties cloudProperties, ExternalClient externalClient, ReportGenerator reportGenerator, ExternalDriverManager externalDriverManager, Browser browser) {
-    this.cloudProperties = cloudProperties;
-    this.externalClient = externalClient;
-    this.reportGenerator = reportGenerator;
-    this.externalDriverManager = externalDriverManager;
-    this.browser = browser;
-  }
-
-  @BeforeAll
-  public void beforeAllScenarios() {
-    log.info("-------------- executing BeforeAll hook ----------------");
-  }
-
-  @Before("@automation")
-  public void beforeScenario(Scenario scenario) {
-    if (isUIScenario(scenario)) {
-      if (cloudProperties.isEnabled()) {
-        WebDriverRunner.setWebDriver(externalDriverManager.getDriver());
-      }
-      WebDriverRunner.getWebDriver().manage().window().fullscreen();
-    }
-  }
-
-  @Before("@geolocation")
-  public void beforeGelocation(Scenario scenario) {
-    if (isUIScenario(scenario)) {
-      if (cloudProperties.isEnabled()) {
-        WebDriverRunner.setWebDriver(externalDriverManager.getChromeDriver());
-      } else {
-        browser.chromeGeolocationDisabled().manage().window().fullscreen();
-      }
-    }
-  }
-
-  @Before("@submit")
-  public void beforeSubmit(Scenario scenario) {
-    if (isUIScenario(scenario)) {
-      JavascriptExecutor je = (JavascriptExecutor) WebDriverRunner.getWebDriver();
-      je.executeScript("window.__P4U_AUTOMATION_TEST__=true;");
-      //String testVal = je.executeScript("return window.__P4U_AUTOMATION_TEST__;").toString();
-
-      //if (cloudProperties.isEnabled()) {
-       // WebDriverRunner.setWebDriver(externalDriverManager.getChromeDriver());
-      //} else {
-       // browser.chromeGeolocationDisabled().manage().window().fullscreen();
-      }
+    @Autowired
+    public Hooks(CloudProperties cloudProperties, ExternalClient externalClient, ReportGenerator reportGenerator, ExternalDriverManager externalDriverManager, Browser browser, Locators locators) {
+        this.cloudProperties = cloudProperties;
+        this.externalClient = externalClient;
+        this.reportGenerator = reportGenerator;
+        this.externalDriverManager = externalDriverManager;
+        this.browser = browser;
+        this.locators = locators;
     }
 
-
-  @After
-  public void afterScenario(Scenario scenario) {
-    if (!isUIScenario(scenario)) {
-      return;
+    @BeforeAll
+    public void beforeAllScenarios() {
+        log.info("-------------- executing BeforeAll hook ----------------");
     }
 
-    try {
-      if (cloudProperties.isEnabled()) {
-        externalClient.updateSession(scenario);
-      }
+    @Before("@automation")
+    public void beforeScenario(Scenario scenario) {
+        if (isUIScenario(scenario)) {
+            if (cloudProperties.isEnabled()) {
+                WebDriverRunner.setWebDriver(externalDriverManager.getDriver());
+            }
+         //WebDriverRunner.getWebDriver().manage().window().fullscreen();
+            locators.shadowDOM();
 
-      if (scenario.isFailed()) {
-        final TakesScreenshot takesScreenshot = (TakesScreenshot) WebDriverRunner.getWebDriver();
-        final byte[] screenshot = takesScreenshot.getScreenshotAs(BYTES);
-        scenario.embed(screenshot, "image/png");
-      }
-    } finally {
-      close();
+        }
     }
-  }
 
-  @AfterAll
-  public void afterAllScenarios() {
-    log.info("-------------- executing AfterAll hook ----------------");
-    reportGenerator.generate();
-  }
+    @Before("@geolocation")
+    public void beforeGelocation(Scenario scenario) {
+        if (isUIScenario(scenario)) {
+            if (cloudProperties.isEnabled()) {
+                WebDriverRunner.setWebDriver(externalDriverManager.getChromeDriver());
+            } else {
+                browser.chromeGeolocationDisabled().manage().window().fullscreen();
+            }
+        }
+    }
 
-  private boolean isUIScenario(Scenario scenario) {
-    return !scenario.getSourceTagNames().contains(API_TAG);
-  }
+    @Before("@submit")
+    public void beforeSubmit(Scenario scenario) {
+        if (isUIScenario(scenario)) {
+            JavascriptExecutor je = (JavascriptExecutor) WebDriverRunner.getWebDriver();
+            je.executeScript("window.__P4U_AUTOMATION_TEST__=true;");
+            //String testVal = je.executeScript("return window.__P4U_AUTOMATION_TEST__;").toString();
+
+            //if (cloudProperties.isEnabled()) {
+            // WebDriverRunner.setWebDriver(externalDriverManager.getChromeDriver());
+            //} else {
+            // browser.chromeGeolocationDisabled().manage().window().fullscreen();
+        }
+    }
+
+
+    @After
+    public void afterScenario(Scenario scenario) {
+        if (!isUIScenario(scenario)) {
+            return;
+        }
+
+        try {
+            if (cloudProperties.isEnabled()) {
+                externalClient.updateSession(scenario);
+            }
+
+            if (scenario.isFailed()) {
+                final TakesScreenshot takesScreenshot = (TakesScreenshot) WebDriverRunner.getWebDriver();
+                final byte[] screenshot = takesScreenshot.getScreenshotAs(BYTES);
+                scenario.embed(screenshot, "image/png");
+            }
+        } finally {
+            close();
+        }
+    }
+
+    @AfterAll
+    public void afterAllScenarios() {
+        log.info("-------------- executing AfterAll hook ----------------");
+        reportGenerator.generate();
+    }
+
+    private boolean isUIScenario(Scenario scenario) {
+        return !scenario.getSourceTagNames().contains(API_TAG);
+    }
 }

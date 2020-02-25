@@ -22,7 +22,7 @@ public class UserRegistrationPage {
     }
 
     public void open() {
-        Selenide.open(host + "/s/login/?startURL=%2Fmyamp%2Fs%2F&response_type=undefined&redirect_uri=undefined&ec=302");
+        Selenide.open(host + "/s/login");
     }
 
     public void clickLoginButton() throws InterruptedException {
